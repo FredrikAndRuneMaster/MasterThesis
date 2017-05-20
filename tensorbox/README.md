@@ -1,5 +1,13 @@
-<img src=http://russellsstewart.com/s/tensorbox/tensorbox_output.jpg></img>
+# Modifications to TensorBox
 
+The following have been modified:
+* Training: Updated to support TensorFlow 0.12.1
+* Evaluation: Added support to save images into 4 categories: TP, FP, TN, FP.
+* Evaluation: Added support to evaluate every 10% confidence between 10% and 90% in a single run.
+* Evaluation: Metrics are printed out for every confidence at the end.
+
+
+# Original readme
 TensorBox is a simple framework for training neural networks to detect objects in images. 
 Training requires a json file (e.g. [here](http://russellsstewart.com/s/tensorbox/test_boxes.json))
 containing a list of images and the bounding boxes in each image.
